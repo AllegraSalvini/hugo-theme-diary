@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html><head>
+<title>Chapter II: Pierre Gringoire</title>
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"
+integrity="sha256-EGs9T1xMHdvM1geM8jPpoo8EZ1V1VRsmcJz8OByENLA=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@14.2.1/dist/smooth-scroll.polyfills.min.js"
+integrity="sha256-CI4Gq5E0io1Pv0xM3qPM+NUIOhbIBvC3GiN1Y4KhXpw=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"
+integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+
+
+
+<link rel="icon" href="">
+
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/journal.min.a2b9c3b866bde4bf64897f3a1b55cf04e8d5d22e1054b01c0d2b08348d1a1215.css" integrity="sha256-ornDuGa95L9kiX86G1XPBOjV0i4QVLAcDSsINI0aEhU=" media="screen">
+
+
+<script src="/js/loadCSS.js"></script>
+<script>
+    loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Material+Icons");
+    (function (d) {
+        var config = {
+                kitId: 'dwg1tuc',
+                scriptTimeout: 3000,
+                async: true
+            },
+            h = d.documentElement, t = setTimeout(function () {
+                h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+            }, config.scriptTimeout), tk = d.createElement("script"), f = false,
+            s = d.getElementsByTagName("script")[0], a;
+        h.className += " wf-loading";
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+            a = this.readyState;
+            if (f || a && a != "complete" && a != "loaded") return;
+            f = true;
+            clearTimeout(t);
+            try {
+                Typekit.load(config)
+            } catch (e) {
+            }
+        };
+        s.parentNode.insertBefore(tk, s)
+    })(document);
+</script>
+
+</head><body>
+    	<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://example.org/">
+    
+        <div class="nav-title">
+            A Hugo Site
+        </div>
+        
+        <div class="nav-subtitle">
+            Themed by Diary.
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+
+            
+                
+                <a class="a-block nav-link-item false" href="http://example.org/categories/">
+                    Categories
+                </a>
+            
+        
+            
+            
+
+            
+                
+                <a class="a-block nav-link-item false" href="http://example.org/tags/">
+                    Tags
+                </a>
+            
+        
+    </div>
+
+
+    <div class="nav-footer">
+        Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+&copy;
+	
+	Copyright Example
+	
+    </div>
+    
+</div><div ref="extraContainer" class="extra-container">
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+    </div>
+</div><div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+                
+                
+
+                
+                    
+                    <a class="a-block drawer-menu-item false" href="http://example.org/categories/">
+                        Categories
+                    </a>
+                
+            
+                
+                
+
+                
+                    
+                    <a class="a-block drawer-menu-item false" href="http://example.org/tags/">
+                        Tags
+                    </a>
+                
+            
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="http://example.org/">
+            A Hugo Site
+        </a>
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://example.org/">
+        <div class="single-column-header-title">A Hugo Site</div>
+        
+        <div class="single-column-header-subtitle">Themed by Diary.</div>
+        
+
+    </a>
+</div>
+            <div id="content">
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            <div class="post-head-wrapper-text-only"
+                 style="background-image: url('')">
+                <div class="post-title">
+                    Chapter II: Pierre Gringoire
+                    <div class="post-meta">
+                        <time itemprop="datePublished">
+                            2017-04-10 11:00
+                        </time>
+
+                        
+
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                <div class="post-body">
+                    <p>Nevertheless, as be harangued them, the satisfaction and admiration
+unanimously excited by his costume were dissipated by his words; and when
+he reached that untoward conclusion: “As soon as his illustrious eminence,
+the cardinal, arrives, we will begin,” his voice was drowned in a thunder
+of hooting.</p>
+
+<p>“Begin instantly! The mystery! the mystery immediately!” shrieked the
+people. And above all the voices, that of Johannes de Molendino was
+audible, piercing the uproar like the fife’s derisive serenade: “Commence
+instantly!” yelped the scholar.</p>
+
+<p>“Down with Jupiter and the Cardinal de Bourbon!” vociferated Robin
+Poussepain and the other clerks perched in the window.</p>
+
+<p>“The morality this very instant!” repeated the crowd; “this very instant!
+the sack and the rope for the comedians, and the cardinal!”</p>
+
+<p>Poor Jupiter, haggard, frightened, pale beneath his rouge, dropped his
+thunderbolt, took his cap in his hand; then he bowed and trembled and
+stammered: “His eminence—the ambassadors—Madame Marguerite of
+Flanders—.” He did not know what to say. In truth, he was afraid of
+being hung.</p>
+
+<p>Hung by the populace for waiting, hung by the cardinal for not having
+waited, he saw between the two dilemmas only an abyss; that is to say, a
+gallows.</p>
+
+<p>Luckily, some one came to rescue him from his embarrassment, and assume
+the responsibility.</p>
+
+<p>An individual who was standing beyond the railing, in the free space
+around the marble table, and whom no one had yet caught sight of, since
+his long, thin body was completely sheltered from every visual ray by the
+diameter of the pillar against which he was leaning; this individual, we
+say, tall, gaunt, pallid, blond, still young, although already wrinkled
+about the brow and cheeks, with brilliant eyes and a smiling mouth, clad
+in garments of black serge, worn and shining with age, approached the
+marble table, and made a sign to the poor sufferer. But the other was so
+confused that he did not see him. The new comer advanced another step.</p>
+
+<p>“Jupiter,” said he, “my dear Jupiter!”</p>
+
+<p>The other did not hear.</p>
+
+<p>At last, the tall blond, driven out of patience, shrieked almost in his
+face,—</p>
+
+<p>“Michel Giborne!”</p>
+
+<p>“Who calls me?” said Jupiter, as though awakened with a start.</p>
+
+<p>“I,” replied the person clad in black.</p>
+
+<p>“Ah!” said Jupiter.</p>
+
+<p>“Begin at once,” went on the other. “Satisfy the populace; I undertake to
+appease the bailiff, who will appease monsieur the cardinal.”</p>
+
+<p>Jupiter breathed once more.</p>
+
+<p>“Messeigneurs the bourgeois,” he cried, at the top of his lungs to the
+crowd, which continued to hoot him, “we are going to begin at once.”</p>
+
+<p>“<em>Evoe Jupiter! Plaudite cives</em>! All hail, Jupiter! Applaud,
+citizens!” shouted the scholars.</p>
+
+<p>“Noel! Noel! good, good,” shouted the people.</p>
+
+<p>The hand clapping was deafening, and Jupiter had already withdrawn under
+his tapestry, while the hall still trembled with acclamations.</p>
+
+<p>In the meanwhile, the personage who had so magically turned the tempest
+into dead calm, as our old and dear Corneille puts it, had modestly
+retreated to the half-shadow of his pillar, and would, no doubt, have
+remained invisible there, motionless, and mute as before, had he not been
+plucked by the sleeve by two young women, who, standing in the front row
+of the spectators, had noticed his colloquy with Michel Giborne-Jupiter.</p>
+
+<p>“Master,” said one of them, making him a sign to approach. “Hold your
+tongue, my dear Liénarde,” said her neighbor, pretty, fresh, and very
+brave, in consequence of being dressed up in her best attire. “He is not a
+clerk, he is a layman; you must not say master to him, but messire.”</p>
+
+                </div>
+            </div>
+
+        
+
+
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+&copy;
+	
+	Copyright Example
+	</div>
+    	</div>
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

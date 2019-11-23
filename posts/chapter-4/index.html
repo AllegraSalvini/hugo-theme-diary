@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html><head>
+<title>Chapter IV: Master Jacques Coppenole</title>
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"
+integrity="sha256-EGs9T1xMHdvM1geM8jPpoo8EZ1V1VRsmcJz8OByENLA=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@14.2.1/dist/smooth-scroll.polyfills.min.js"
+integrity="sha256-CI4Gq5E0io1Pv0xM3qPM+NUIOhbIBvC3GiN1Y4KhXpw=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"
+integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+
+
+
+<link rel="icon" href="">
+
+
+
+
+<link rel="stylesheet" href="http://example.org/scss/journal.min.a2b9c3b866bde4bf64897f3a1b55cf04e8d5d22e1054b01c0d2b08348d1a1215.css" integrity="sha256-ornDuGa95L9kiX86G1XPBOjV0i4QVLAcDSsINI0aEhU=" media="screen">
+
+
+<script src="/js/loadCSS.js"></script>
+<script>
+    loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Material+Icons");
+    (function (d) {
+        var config = {
+                kitId: 'dwg1tuc',
+                scriptTimeout: 3000,
+                async: true
+            },
+            h = d.documentElement, t = setTimeout(function () {
+                h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+            }, config.scriptTimeout), tk = d.createElement("script"), f = false,
+            s = d.getElementsByTagName("script")[0], a;
+        h.className += " wf-loading";
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+            a = this.readyState;
+            if (f || a && a != "complete" && a != "loaded") return;
+            f = true;
+            clearTimeout(t);
+            try {
+                Typekit.load(config)
+            } catch (e) {
+            }
+        };
+        s.parentNode.insertBefore(tk, s)
+    })(document);
+</script>
+
+</head><body>
+    	<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://example.org/">
+    
+        <div class="nav-title">
+            A Hugo Site
+        </div>
+        
+        <div class="nav-subtitle">
+            Themed by Diary.
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+
+            
+                
+                <a class="a-block nav-link-item false" href="http://example.org/categories/">
+                    Categories
+                </a>
+            
+        
+            
+            
+
+            
+                
+                <a class="a-block nav-link-item false" href="http://example.org/tags/">
+                    Tags
+                </a>
+            
+        
+    </div>
+
+
+    <div class="nav-footer">
+        Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+&copy;
+	
+	Copyright Example
+	
+    </div>
+    
+</div><div ref="extraContainer" class="extra-container">
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+    </div>
+</div><div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+                
+                
+
+                
+                    
+                    <a class="a-block drawer-menu-item false" href="http://example.org/categories/">
+                        Categories
+                    </a>
+                
+            
+                
+                
+
+                
+                    
+                    <a class="a-block drawer-menu-item false" href="http://example.org/tags/">
+                        Tags
+                    </a>
+                
+            
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="http://example.org/">
+            A Hugo Site
+        </a>
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://example.org/">
+        <div class="single-column-header-title">A Hugo Site</div>
+        
+        <div class="single-column-header-subtitle">Themed by Diary.</div>
+        
+
+    </a>
+</div>
+            <div id="content">
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            <div class="post-head-wrapper-text-only"
+                 style="background-image: url('')">
+                <div class="post-title">
+                    Chapter IV: Master Jacques Coppenole
+                    <div class="post-meta">
+                        <time itemprop="datePublished">
+                            2017-04-12 11:14
+                        </time>
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/scene">scene</a>
+                                &nbsp;
+                            
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                <div class="post-body">
+                    <p>While the pensioner of Ghent and his eminence were exchanging very low
+bows and a few words in voices still lower, a man of lofty stature, with a
+large face and broad shoulders, presented himself, in order to enter
+abreast with Guillaume Rym; one would have pronounced him a bull-dog by
+the side of a fox. His felt doublet and leather jerkin made a spot on the
+velvet and silk which surrounded him. Presuming that he was some groom who
+had stolen in, the usher stopped him.</p>
+
+<p>“Hold, my friend, you cannot pass!”</p>
+
+<p>The man in the leather jerkin shouldered him aside.</p>
+
+<p>“What does this knave want with me?” said he, in stentorian tones, which
+rendered the entire hall attentive to this strange colloquy. “Don’t you
+see that I am one of them?”</p>
+
+<p>“Your name?” demanded the usher.</p>
+
+<p>“Jacques Coppenole.”</p>
+
+<p>“Your titles?”</p>
+
+<p>“Hosier at the sign of the ‘Three Little Chains,’ of Ghent.”</p>
+
+<p>The usher recoiled. One might bring one’s self to announce aldermen and
+burgomasters, but a hosier was too much. The cardinal was on thorns. All
+the people were staring and listening. For two days his eminence had been
+exerting his utmost efforts to lick these Flemish bears into shape, and to
+render them a little more presentable to the public, and this freak was
+startling. But Guillaume Rym, with his polished smile, approached the
+usher.</p>
+
+<p>“Announce Master Jacques Coppenole, clerk of the aldermen of the city of
+Ghent,” he whispered, very low.</p>
+
+<p>“Usher,” interposed the cardinal, aloud, “announce Master Jacques
+Coppenole, clerk of the aldermen of the illustrious city of Ghent.”</p>
+
+<p>This was a mistake. Guillaume Rym alone might have conjured away the
+difficulty, but Coppenole had heard the cardinal.</p>
+
+<p>“No, cross of God?” he exclaimed, in his voice of thunder, “Jacques
+Coppenole, hosier. Do you hear, usher? Nothing more, nothing less. Cross
+of God! hosier; that’s fine enough. Monsieur the Archduke has more than
+once sought his <em>gant</em>* in my hose.”</p>
+
+<p><em>*  Got the first idea of a timing.</em></p>
+
+<p>Laughter and applause burst forth. A jest is always understood in Paris,
+and, consequently, always applauded.</p>
+
+<p>Let us add that Coppenole was of the people, and that the auditors which
+surrounded him were also of the people. Thus the communication between him
+and them had been prompt, electric, and, so to speak, on a level. The
+haughty air of the Flemish hosier, by humiliating the courtiers, had
+touched in all these plebeian souls that latent sentiment of dignity still
+vague and indistinct in the fifteenth century.</p>
+
+<p>This hosier was an equal, who had just held his own before monsieur the
+cardinal. A very sweet reflection to poor fellows habituated to respect
+and obedience towards the underlings of the sergeants of the bailiff of
+Sainte-Geneviève, the cardinal’s train-bearer.</p>
+
+<p>Coppenole proudly saluted his eminence, who returned the salute of the
+all-powerful bourgeois feared by Louis XI. Then, while Guillaume Rym, a
+“sage and malicious man,” as Philippe de Comines puts it, watched them
+both with a smile of raillery and superiority, each sought his place, the
+cardinal quite abashed and troubled, Coppenole tranquil and haughty, and
+thinking, no doubt, that his title of hosier was as good as any other,
+after all, and that Marie of Burgundy, mother to that Marguerite whom
+Coppenole was to-day bestowing in marriage, would have been less afraid of
+the cardinal than of the hosier; for it is not a cardinal who would have
+stirred up a revolt among the men of Ghent against the favorites of the
+daughter of Charles the Bold; it is not a cardinal who could have
+fortified the populace with a word against her tears and prayers, when the
+Maid of Flanders came to supplicate her people in their behalf, even at
+the very foot of the scaffold; while the hosier had only to raise his
+leather elbow, in order to cause to fall your two heads, most illustrious
+seigneurs, Guy d’Hymbercourt and Chancellor Guillaume Hugonet.</p>
+
+                </div>
+            </div>
+
+        
+
+
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+&copy;
+	
+	Copyright Example
+	</div>
+    	</div>
+    <script src="/js/journal.js"></script>
+    </body>
+</html>
