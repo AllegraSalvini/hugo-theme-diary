@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on 左手的世界</title>
-    <link>https://amazingrise.net/tags/python/</link>
+    <link>https://amazingrise.net/hugo-theme-diary/tags/python/</link>
     <description>Recent content in Python on 左手的世界</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Mon, 28 Oct 2019 23:28:09 +0000</lastBuildDate>
     
-	<atom:link href="https://amazingrise.net/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amazingrise.net/hugo-theme-diary/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何优雅地使用 Spyder 的调试器</title>
-      <link>https://amazingrise.net/howto-use-spyder-debugger/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/howto-use-spyder-debugger/</link>
       <pubDate>Mon, 28 Oct 2019 23:28:09 +0000</pubDate>
       
-      <guid>https://amazingrise.net/howto-use-spyder-debugger/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/howto-use-spyder-debugger/</guid>
       <description>&lt;h1 id=&#34;heading&#34;&gt;前言&lt;/h1&gt;
 &lt;p&gt;这是一个面向初学者的文章.
 很多朋友在初学编程的时候很难找出错误,或者对程序运行流程不太清楚.

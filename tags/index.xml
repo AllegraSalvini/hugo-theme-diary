@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 左手的世界</title>
-    <link>https://amazingrise.net/tags/</link>
+    <link>https://amazingrise.net/hugo-theme-diary/tags/</link>
     <description>Recent content in Tags on 左手的世界</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Mon, 28 Oct 2019 23:28:09 +0000</lastBuildDate>
     
-	<atom:link href="https://amazingrise.net/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amazingrise.net/hugo-theme-diary/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Python</title>
-      <link>https://amazingrise.net/tags/python/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/python/</link>
       <pubDate>Mon, 28 Oct 2019 23:28:09 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/python/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IDE</title>
-      <link>https://amazingrise.net/tags/ide/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/ide/</link>
       <pubDate>Sun, 11 Aug 2019 13:52:16 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/ide/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/ide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jar</title>
-      <link>https://amazingrise.net/tags/jar/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/jar/</link>
       <pubDate>Sun, 11 Aug 2019 13:52:16 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/jar/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/jar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jetbrains</title>
-      <link>https://amazingrise.net/tags/jetbrains/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/jetbrains/</link>
       <pubDate>Sun, 11 Aug 2019 13:52:16 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/jetbrains/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/jetbrains/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kotlin</title>
-      <link>https://amazingrise.net/tags/kotlin/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/kotlin/</link>
       <pubDate>Sun, 11 Aug 2019 13:52:16 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/kotlin/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/kotlin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>package</title>
-      <link>https://amazingrise.net/tags/package/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/package/</link>
       <pubDate>Sun, 11 Aug 2019 13:52:16 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/package/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/package/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Translation</title>
-      <link>https://amazingrise.net/tags/translation/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/translation/</link>
       <pubDate>Sat, 18 May 2019 10:47:06 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/translation/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/translation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://amazingrise.net/tags/linux/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/linux/</link>
       <pubDate>Sat, 20 Apr 2019 16:11:20 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/linux/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manjaro</title>
-      <link>https://amazingrise.net/tags/manjaro/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/manjaro/</link>
       <pubDate>Sat, 20 Apr 2019 16:11:20 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/manjaro/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/manjaro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NVIDIA</title>
-      <link>https://amazingrise.net/tags/nvidia/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/nvidia/</link>
       <pubDate>Sat, 20 Apr 2019 16:11:20 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/nvidia/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/nvidia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimus</title>
-      <link>https://amazingrise.net/tags/optimus/</link>
+      <link>https://amazingrise.net/hugo-theme-diary/tags/optimus/</link>
       <pubDate>Sat, 20 Apr 2019 16:11:20 +0000</pubDate>
       
-      <guid>https://amazingrise.net/tags/optimus/</guid>
+      <guid>https://amazingrise.net/hugo-theme-diary/tags/optimus/</guid>
       <description></description>
     </item>
     
