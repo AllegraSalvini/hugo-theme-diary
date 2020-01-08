@@ -1,87 +1,97 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A Hugo Site</title>
-    <link>https://amazingrise.net/hugo-theme-diary/</link>
-    <description>Recent content on A Hugo Site</description>
+    <title>左手的世界</title>
+    <link>https://amazingrise.net/</link>
+    <description>Recent content on 左手的世界</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright Example</copyright>
-    <lastBuildDate>Thu, 14 Nov 2019 11:25:05 -0400</lastBuildDate>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 28 Oct 2019 23:28:09 +0000</lastBuildDate>
     
-	<atom:link href="https://amazingrise.net/hugo-theme-diary/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amazingrise.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>中文文本测试</title>
-      <link>https://amazingrise.net/hugo-theme-diary/posts/chinese/</link>
-      <pubDate>Thu, 14 Nov 2019 11:25:05 -0400</pubDate>
+      <title>如何优雅地使用 Spyder 的调试器</title>
+      <link>https://amazingrise.net/howto-use-spyder-debugger/</link>
+      <pubDate>Mon, 28 Oct 2019 23:28:09 +0000</pubDate>
       
-      <guid>https://amazingrise.net/hugo-theme-diary/posts/chinese/</guid>
-      <description>这样看来， 邓拓在不经意间这样说过，越是没有本领的就越加自命不凡。这不禁令我深思。 我们不得不面对一个非常尴尬的事实，那就是， 一般来说， 所谓中午吃什么，关键是中午吃什么需要如何写。 伏尔泰说过一句富有哲理的话，坚持意志伟大的事业需要始终不渝的精神。这启发了我， 那么， 对我个人而言，中午吃什么不仅仅是一个重大的事件，还可能会改变我的人生。 这样看来， 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 一般来讲，我们都必须务必慎重的考虑考虑。 黑格尔说过一句富有哲理的话，只有永远躺在泥坑里的人，才不会再掉进坑里。这启发了我， 我们不得不面对一个非常尴尬的事实，那就是， 既然如何， 在这种困难的抉择下，本人思来想去，寝食难安。
-　我认为， 而这些并不是完全重要，更加重要的问题是， 了解清楚中午吃什么到底是一种怎么样的存在，是解决一切问题的关键。 中午吃什么因何而发生？ 而这些并不是完全重要，更加重要的问题是， 卢梭在不经意间这样说过，浪费时间是一桩大罪过。这启发了我， 既然如此， 从这个角度来看， 歌德在不经意间这样说过，意志坚强的人能把世界放在手中像泥块一样任意揉捏。我希望诸位也能好好地体会这句话。 我认为， 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 莎士比亚在不经意间这样说过，人的一生是短的，但如果卑劣地过这一生，就太长了。带着这句话，我们还要更加慎重的审视这个问题： 带着这些问题，我们来审视一下中午吃什么。 中午吃什么因何而发生？ 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 布尔沃曾经说过，要掌握书，莫被书掌握；要为生而读，莫为读而生。这似乎解答了我的疑惑。 而这些并不是完全重要，更加重要的问题是， 生活中，若中午吃什么出现了，我们就不得不考虑它出现了的事实。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 带着这些问题，我们来审视一下中午吃什么。 生活中，若中午吃什么出现了，我们就不得不考虑它出现了的事实。 我认为， 一般来说， 中午吃什么，到底应该如何实现。 我们不得不面对一个非常尴尬的事实，那就是， 所谓中午吃什么，关键是中午吃什么需要如何写。 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 现在，解决中午吃什么的问题，是非常非常重要的。
-　我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 可是，即使是这样，中午吃什么的出现仍然代表了一定的意义。 带着这些问题，我们来审视一下中午吃什么。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 我认为， 问题的关键究竟为何？ 非洲曾经提到过，最灵繁的人也看不见自己的背脊。这启发了我， 易卜生说过一句富有哲理的话，伟大的事业，需要决心，能力，组织和责任感。这似乎解答了我的疑惑。 一般来说， 在这种困难的抉择下，本人思来想去，寝食难安。 中午吃什么，到底应该如何实现。 经过上述讨论， 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 中午吃什么因何而发生？ 带着这些问题，我们来审视一下中午吃什么。 对我个人而言，中午吃什么不仅仅是一个重大的事件，还可能会改变我的人生。</description>
+      <guid>https://amazingrise.net/howto-use-spyder-debugger/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;前言&lt;/h1&gt;
+&lt;p&gt;这是一个面向初学者的文章.
+很多朋友在初学编程的时候很难找出错误,或者对程序运行流程不太清楚.
+这个时候调试器就要上场了~
+所以在这里我要以Spyder为例,介绍调试器的用法.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Typography - Test for features</title>
-      <link>https://amazingrise.net/hugo-theme-diary/posts/post-5/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
+      <title>粤语入声的初探究</title>
+      <link>https://amazingrise.net/checked-tone-in-cantonese/</link>
+      <pubDate>Sun, 27 Oct 2019 09:08:33 +0000</pubDate>
       
-      <guid>https://amazingrise.net/hugo-theme-diary/posts/post-5/</guid>
-      <description>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
-Heading 1 Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio.</description>
+      <guid>https://amazingrise.net/checked-tone-in-cantonese/</guid>
+      <description>(原创)作者amazingRise,未经许可不得转载. 汉语读起来十分动听, 而它正是以其抑扬顿挫之语调而著名. 而粤语(广州话)中很好保留了入声的三个韵尾.本篇旨在描述粤语中三个入声的区别. 另外,本人并非专业研究人员.若有错误欢迎指正!
+何为入声  入声早已消失在现代普通话(或更泛化地说,北方方言)中. 但是在一些方言,例如粤语,客家话,闽南语中得以保留. 与入声相对的是舒声. 所以普通话里面全都是舒声. 入声又被称爲喉塞音. 这种叫法很形象,可能会加快理解的过程. 入声字的韵尾以塞音快速结束, 大部分入声字听起来就像气流突然被阻断. 然而古代汉语却有入声, 时人作赋之时, 有些便以入声作爲韵尾. (所以从这一角度讲,用一些方言(例如粤语)而不是现代普通话,才能更好地表现出它的艺术特色. 下文会举出一些例子.)  五度标记法 汉语读起来十分动听, 而它正是以其抑扬顿挫之语调而著名. 这一点让许多非汉语母语的人摸不到头脑. 所以如何表示汉语的声调呢?(这里汉语泛指普通话以及其他汉语方言)
+考虑到读者很多爲讲普通话的朋友.故在讲述入声之前,先给大家介绍一种记录现代汉语声调的最广泛的方法:五度标记法.(由赵元任先生发明,他被称爲汉语言学之父)
+下面我将以现代汉语普通话爲例, 跟大家简单介绍一下五度标记法.
+用五度标记法表示现代汉语的四个声调 在现代普通话中有四个声调,他们分别是: 阴平, 阳平, 上声, 去声. 现代汉语拼音方案中用一声,二声,三声,四声表示这四个音调.
+五度标记法它标记了一个音韵的起始,中间过程(有时省略),和结尾的音调高低. 对于音调的高低有两种表示形式:一种是数字法, 一种是曲线法. 以现代汉语普通话的四个声调爲例,我放出一张用五度标记法标记的四个声调的图,大家先体会一下. 图中的曲线就是五度标记法的曲线法啦,而右侧 一二三四五 表示五度标记法的数字法.
+曲线法很直观,声调越高,曲线中对应的那一点越高. 而数字法的某一位置的数值越高,则代表该位置的数字表示的声调越高.
+所以说,普通话的一声的调值爲55, 二声的调值爲35, 三声的调值爲214, 四声的调值爲51. (一些北方方言与普通话的最大区别便在于调值)
+这麽说可能不是很直观. 大家可以尝试用普通话大声朗读这四个字来体会一下它的声调变化. (感谢维基百科提供的好例子) 番（fan 一声）[55]，茄（qie 二声）[35]，炒（chao 三声）[214]，蛋（dan 四声）[51]。
+五度标记法表示了音调的相对高低 五度标记法与现代汉语拼音方案的最大不同在于: 五度标记法的数字代表相对调值的高低.而现代汉语拼音方案的四个数字则仅代表不同的声调调型. (与粤拼类似)
+好的,这就是五度标记法. 大家可能还是有一些不懂的地方. 在下文我将介绍粤语的九声六调. 由于粤语的音调更加丰富,所以可能更加便于理解五度标记法的作用. (反正我当时觉得,哇,这玩意简直是神器)
+粤语中的九声六调 由于笔者所接触到的粤语大多均爲广州话. 所以本文暂且以粤语广州话爲标准探讨. 下文所指粤语,也均爲广州话爲代表的粤语.</description>
     </item>
     
     <item>
-      <title>Getting Started with Traveling Ultralight</title>
-      <link>https://amazingrise.net/hugo-theme-diary/posts/post-4/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:35 +0530</pubDate>
+      <title>如何把Kotlin项目打包为可执行的jar</title>
+      <link>https://amazingrise.net/package-kotlin-project-in-jar/</link>
+      <pubDate>Sun, 11 Aug 2019 13:52:16 +0000</pubDate>
       
-      <guid>https://amazingrise.net/hugo-theme-diary/posts/post-4/</guid>
-      <description>I’m on a trip at the moment, and a friend who generously let me sleep on his couch looked at my small travel backpack and commented on how little I travel with: “That’s impressive,” he said.
-I was a little surprised, because though I’ve gotten that comment before, it’s become normal for me to travel with just a small bag (10 lbs. or less, usually), and I have friends who travel with even less.</description>
+      <guid>https://amazingrise.net/package-kotlin-project-in-jar/</guid>
+      <description>&lt;h2 id=&#34;heading&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;最近在做QQ机器人的后端。本人用Sun的HTTPServer实现HTTP服务的提供，可以看本人的 &lt;a href=&#34;https://github.com/amazingrise/qqbotkotlin&#34;&gt;GitHub Repo - QQ Group Chatting Robot&lt;/a&gt;
+该项目用Kotlin编写，刚开始是在IDE里面直接F9运行的。但是时间长了这也不是事&amp;hellip;&amp;hellip;
+于是我打算把该项目打包成可执行的jar，这样&lt;code&gt;java -jar xxxxx.jar&lt;/code&gt;就可以执行了，这多好呀。
+然而我踩了一天的坑QAQ：IDE自动生成的jar直接执行会提示&lt;code&gt;没有主清单属性&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>How I Learned to Stop Procrastinating, &amp; Love Letting Go</title>
-      <link>https://amazingrise.net/hugo-theme-diary/posts/post-3/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
+      <title>(译)Kotlin中的等号，&#34;==&#34;，&#34;===&#34;和&#34;equals&#34;</title>
+      <link>https://amazingrise.net/equality-in-kotlin-translation/</link>
+      <pubDate>Sat, 18 May 2019 10:47:06 +0000</pubDate>
       
-      <guid>https://amazingrise.net/hugo-theme-diary/posts/post-3/</guid>
-      <description>The end of procrastination is the art of letting go.
-I’ve been a lifelong procrastinator, at least until recent years. I would put things off until deadline, because I knew I could come through. I came through on tests after cramming last minute, I turned articles in at the deadline after waiting until the last hour, I got things done.
-Until I didn’t. It turns out procrastinating caused me to miss deadlines, over and over.</description>
+      <guid>https://amazingrise.net/equality-in-kotlin-translation/</guid>
+      <description>Translated from: Equality in Kotlin Author: Suneet Agrawal Translated by : AmazingRise (Authorized by original author)
+在编程中，我们经常需要比较两个变量的值是否相等，或者两个对象的引用是否一致。 Kotlin语言里，“等号”有这么几种：==，===与.equals。 那么问题来了，我们该如何正确使用这些相等性判断呢？
+我们来一起看一看Kotlin的几种相等性判断：
+结构性相等 (&amp;ldquo;==&amp;rdquo;) ==操作符用于比较两个变量的值。 请不要与Java中的==相混淆。 与Java中的==操作符不同的是：==操作符在Kotlin中只比较值。 而Java或其它语言中，==通常用来比较两个对象的引用。 Kotlin中，==的否定形式是!=，当两个变量值不同时返回真。
+引用性相等(&amp;ldquo;===&amp;rdquo;) ===操作符用于比较两个变量的引用是否一致。只有当两个变量指向同一个实例时，===的值才为真。 ===的否定形式是!==，当两个对象的引用不同的时候返回真。
+不过对于原始类型（Primitive type）来说（例如 Int），=== 等价于 == 。
+.equals 方法 equals(other: Any?)方法是在Any类里实现的。 并且所有类中.equals都可以被重写（毕竟所有的类都继承于Any嘛，就像Java里的Object一样）。
+.equals方法将会比较两个变量的值。 与==不同体现在比较Float和Double的时候，.equals违背了IEEE 754 浮点数运算标准。
+与IEEE 754浮点数运算标准相违背，意味着什么？
+这意味着：
+ NaN 等于它本身 NaN 比任何其他元素要大，包括正无穷 POSITIVE_INFINITY 编译器会认为-0.0 要比 0.0 小。  一头雾水？
+举个栗子 我来举几个例子解释一下。
+首先，我们用这几个方法比较两个原始类型的变量（Int）。
+val int1 = 10 val int2 = 10 println(int1 == int2)	// true 	println(int1.</description>
     </item>
     
     <item>
-      <title>(No comment) When You Have Too Much to Do</title>
-      <link>https://amazingrise.net/hugo-theme-diary/posts/post-1/</link>
-      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
+      <title>Manjaro 在笔记本上的多显示器配置</title>
+      <link>https://amazingrise.net/manjaro-optimus-dual-monitor/</link>
+      <pubDate>Sat, 20 Apr 2019 16:11:20 +0000</pubDate>
       
-      <guid>https://amazingrise.net/hugo-theme-diary/posts/post-1/</guid>
-      <description>You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.
-It all keeps piling up, and it can feel overwhelming.
-How do you keep up with it all? How do you find focus and peace and get stuff accomplished when you have too much on your plate?</description>
-    </item>
-    
-    <item>
-      <title>Chapter VI: Esmeralda</title>
-      <link>https://amazingrise.net/hugo-theme-diary/posts/chapter-6/</link>
-      <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
-      
-      <guid>https://amazingrise.net/hugo-theme-diary/posts/chapter-6/</guid>
-      <description>We are delighted to be able to inform the reader, that during the whole of this scene, Gringoire and his piece had stood firm. His actors, spurred on by him, had not ceased to spout his comedy, and he had not ceased to listen to it. He had made up his mind about the tumult, and was determined to proceed to the end, not giving up the hope of a return of attention on the part of the public.</description>
-    </item>
-    
-    <item>
-      <title>Chapter I: The Grand Hall</title>
-      <link>https://amazingrise.net/hugo-theme-diary/posts/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://amazingrise.net/hugo-theme-diary/posts/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+      <guid>https://amazingrise.net/manjaro-optimus-dual-monitor/</guid>
+      <description>&lt;h2 id=&#34;heading&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;很久之前，就给自己新买的笔记本装上了Manjaro。可惜由于笔记本是双显卡，总会有些奇奇怪怪的问题。
+（参见下文&lt;a href=&#34;#%E9%A2%98%E5%A4%96%E8%AF%9D&#34;&gt;题外话，关于Windows 10上双显卡的“优秀表现”&lt;/a&gt;）
+Manjaro上的问题就是，无法识别外置显示器，只能搁置。看着黑的发亮的显示器，真是十分让人恼火。
+想用 Linux 怎么办？ 只能装上 Ubuntu 了事。&lt;!-- raw HTML omitted --&gt;真香&lt;!-- raw HTML omitted --&gt;
+Ubuntu 上不需要修改任何设置，直接就能识别外接显示器。
+**后来经过一阵探索，才在Manjaro上用上了外置显示器。**&lt;!-- raw HTML omitted --&gt;终于摆脱了真香定律&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
